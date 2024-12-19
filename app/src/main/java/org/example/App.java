@@ -1,14 +1,19 @@
 /*
  * This should be your main class where all your objects will be created
  */
+
 package org.example;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+public class  App {
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-    }
+
+        // Creating a new book
+        Book book1 = new Book("A journey of a thousand miles"," Revic Osei Owusu", 2022);
+
+        book1.Info();
+
+        }
 }
+    
+
